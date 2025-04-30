@@ -4,7 +4,7 @@ A browser-based memory matching game themed around nostalgic Digimon characters.
 
 🔗 **Live Demo**: [Digimon Card Game](https://digimatches-cvan-creations.netlify.app/)  
 📷 **Screenshot**:  
-![Gameplay Screenshot](./digimon-game-screenshot.png) 
+![Gameplay Screenshot](https://github.com/CodingWCal/digimon-digimatch-game/blob/main/digimon-screenshot.png) 
 
 ---
 
