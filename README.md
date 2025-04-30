@@ -23,7 +23,7 @@ The UI is styled with custom fonts, card back images, and character art to give 
 
 ---
 
-## 🧠 Optimizations (optional):
+## 🧠 Optimizations:
 
 I used a basic shuffling method with `Math.random()` and ensured the logic avoids bugs like double-clicking the same card. While minimal, the project lays a solid foundation for future improvements like:
 
