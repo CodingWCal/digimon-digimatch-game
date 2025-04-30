@@ -1,22 +1,49 @@
-# ♠️ Week08 Bootcamp2019a Project: Matching Card Game
+# 🃏 Digimon Digi-Matching Card Game
 
-### Goal: Make a 10 card memory game - users must be able to select two cards and check if they are a match. If they are a match, they stay flipped. If not, they flip back over. Game is done when all cards are matched and flipped over. Example: http://www.fruit-burst.co.uk/fun-and-games/pairs-game 
+A browser-based memory matching game themed around nostalgic Digimon characters. Flip two cards at a time, test your memory, and see how quickly you can find all the matching pairs!
 
-### How to submit your code for review:
+🔗 **Live Demo**: [Digimon Card Game](https://digimatches-cvan-creations.netlify.app/)  
+📷 **Screenshot**:  
+![Gameplay Screenshot](./digimon-game-screenshot.png) 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+---
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## 🛠️ How It's Made:
+
+**Tech used:**  
+HTML, CSS, JavaScript (Vanilla), Node.js
+
+This project was built from the ground up using DOM manipulation and simple event-driven logic in JavaScript. Each Digimon card uses a `data-digi` attribute to store its identity, and clicking a card triggers flip animations and matching logic.
+
+- The game board is randomly shuffled on every load using the CSS `order` property.
+- It tracks selected cards, locks the board to prevent double-clicking, and resets turns accordingly.
+- The reset button reloads the page for a fresh shuffle and replay.
+
+The UI is styled with custom fonts, card back images, and character art to give it that authentic Digi-vibe from the early 2000s.
+
+---
+
+## 🧠 Optimizations (optional):
+
+I used a basic shuffling method with `Math.random()` and ensured the logic avoids bugs like double-clicking the same card. While minimal, the project lays a solid foundation for future improvements like:
+
+- Animating card flips more smoothly
+- Adding a score counter or timer
+- Enhancing responsiveness for mobile users
+
+---
+
+## 📚 Lessons Learned:
+
+This was my first time combining **custom HTML data attributes** with DOM event logic to create a dynamic game experience. I gained a stronger understanding of:
+
+- How to prevent bugs like flipping the same card twice
+- Controlling game state with boolean flags (like `lockBoard`)
+- Writing clear, reusable functions for better readability
+
+I also learned how important small UX decisions (like a 1-second delay on mismatched cards) are for making a game feel polished and playable.
+
+---
+
+💬 Whether you're a Digimon fan or just love simple games that test your memory, I hope this gives you a smile—and a challenge!
+
